@@ -47,6 +47,10 @@ header {
   }
 
 
+  figure{
+    align-items: center;
+  }
+  
   img { 
     width: 340px;
     height: auto;
