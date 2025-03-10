@@ -69,4 +69,17 @@ header {
     
 
   }
+table { 
+    font-family: Verdana, sans-serif;
+    font: size 20px;
+    border-collapse: collapse;
+    width: 100%;
 
+}
+
+th, td {
+    padding: 8px; 
+    text-align: left;
+    border-bottom: 1px solid #19252D;
+}
+tr:hover {background-color: #416071;}
