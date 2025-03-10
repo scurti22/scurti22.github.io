@@ -82,4 +82,8 @@ td,th {
     text-align: left;
     border-bottom: 1px solid #19252D;
 }
-td:hover {background-color: #416071;}
+tr:hover {background-color: #416071;}
+
+tr li a {
+    color: black;
+}
