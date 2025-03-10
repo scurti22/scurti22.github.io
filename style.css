@@ -39,8 +39,10 @@ header {
     text-align:left;
     font-weight: bold;
     font-family: verdana, sans-serif ;
-    
-
 }
-  
+  main {
+    color:black;
+    font-size: 16px;
+    font-family: Verdana, sans-serif;
+  }
 
