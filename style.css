@@ -77,9 +77,9 @@ table {
 
 }
 
-td {
+td,th {
     padding: 8px; 
     text-align: left;
     border-bottom: 1px solid #19252D;
 }
-tr:hover {background-color: #416071;}
+td:hover {background-color: #416071;}
