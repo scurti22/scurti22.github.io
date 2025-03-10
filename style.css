@@ -46,3 +46,14 @@ header {
     font-family: Verdana, sans-serif;
   }
 
+
+  figure { 
+    size: 340px 431px;
+  }
+  figcaption { 
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    font-style: italic;
+
+  }
+
