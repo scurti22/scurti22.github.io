@@ -16,3 +16,7 @@ li {
     text-align: center;
     padding: 14px 16px;
 }
+
+li a:hover {
+    background-color:#C0C0C0;
+}
