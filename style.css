@@ -48,8 +48,10 @@ header {
 
 
   img { 
-    size: 340px 431px;
+    width: 340px;
+    height: auto;
   }
+  
   figcaption { 
     font-family: Verdana, sans-serif;
     font-size: 16px;
