@@ -50,12 +50,14 @@ header {
   img { 
     width: 340px;
     height: auto;
+    align-items: center;
   }
-  
+
   figcaption { 
     font-family: Verdana, sans-serif;
     font-size: 16px;
     font-style: italic;
+    
 
   }
 
