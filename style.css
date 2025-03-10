@@ -1,6 +1,8 @@
 nav {
     list-style-type: none;
     margin: 0;
+    font-size: 40px;
+    color:#C0C0C0;
     padding: 0;
     overflow: hidden;
     background-color:#19252D;
@@ -17,6 +19,3 @@ li {
     padding: 14px 16px;
 }
 
-li a:hover {
-    background-color:#C0C0C0;
-}
