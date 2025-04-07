@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="Topic1.html">Topic 1</a></li>
+        <li><a href="Topic2.html">Topic 2</a></li>
+        <li><a href="References.html">References</a></li>
+        <li><a href="selfassessment.html"> Self Assessment</a></li>
+    </ul>
+</nav>
+
+<body>
+    <h1> Self Assessment </h1>
+    <form id="selfassessment">
+        <div class="question">
+            <p> 1. What does HTTP stand for?</p>
+                <input type="radio" name="q1" value="a"> HyperText Text Protocol<br>
+                <input type="radio" name="q1" value="b"> Helpful Text To Print<br>
+                <input type="radio" name="q1" value="c"> HyperText Transfer Protocol<br>
+                <input type="radio" name="q1" value="d"> Hyper Transfer Text Protocol<br>
+
+            <p> 2. Who Created HTTP? </p>
+                <input type="radio" name="q2" value="a"> Tim Berners-Lee<br>
+                <input type="radio" name="q2" value="b"> Ray Tomlinson<br>
+                <input type="radio" name="q2" value="c"> James Gosling<br>
+                <input type="radio" name="q2" value="d"> Linus Torvalds<br>
+
+            <p> 3.What is the main purpose of HTTP? </p>
+                <input type="radio" name="q3" value="a"> To store data.<br>
+                <input type="radio" name="q3" value="b"> to run queries.<br>
+                <input type="radio" name="q3" value="c"> to transfer data.<br>
+                <input type="radio" name="q3" value="d"> to design web pages.<br>
+
+            <p> 4. What was the name of the first version of HTTP? </p>
+                <input type="text" name="q4">
+
+            <p> 5. What 3 other building blocks were created alongside HTTP.</p>
+                <input type="checkbox" name="q5" value="a"> HTML <br>
+                <input type="checkbox" name="q5" value="b"> javascript <br>
+                <input type="checkbox" name="q5" value="c"> WorldWideWeb <br>
+                <input type="checkbox" name="q5" value="d"> httpd <br>
+
+                <button type="button" onclick="gradequiz()">Submit</button>
+                <button type="reset">restart</button>
+    </form>
+
+    <div id="result"></div></div>
+    <script src="quiz.js"></script>
+</body>
+</html>
