@@ -84,4 +84,7 @@ td,th {
 /*adds hover animation to table elements, as well as adds a color on hover*/
 tr:hover {background-color: #416071;}
 
+form {
+  font-family: verdana, sans-serif;
+}
 
