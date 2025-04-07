@@ -10,7 +10,7 @@ function gradequiz() {
         q5: ["a", "c", "d"]
 
     };
-        
+    
     for (let i = 1; i <= 3; i++) {
         const input = document.querySelector(`input[name="q${i}"]:checked`);
         if (input && input.value === answers[`q${i}`]) {
