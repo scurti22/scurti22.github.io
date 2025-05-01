@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<div class="container">
     <nav>
         <ul>
             <li><a href="index.html">Home</a></li>
@@ -20,9 +20,20 @@
     <header>
         <h1> Topic 1</h1>
         <h2> The history of HTTP</h2>
+        <P> This page will go over the history of HTTP and the versions that lead up to what we have today.</P>
     </header>
 <!--displays main word content-->
-    <main> 
+<section class="card">
+    <p>HTTP has gone through several versions since its creation in 1989 these versions include. 
+        <ul>
+            <li>The One-Line Protocol</li>
+            <li>HTTP 1.0</li>
+            <li>HTTP 1.1</li>
+            <li>HTTP 2</li>
+            <li>HTTP 3</li>
+        </ul>
+</section>
+    <section class="card">
             <p>HTTP was created along with three other building blocks. 
                 HTML was created to represent hypertext documents, WorldWideWeb to display and edit,
                 and httpd which gives access to the document. HTTP’s place was to exchange documents.
@@ -31,6 +42,9 @@
           <p>The one-line protocol consisted of a single line, for example 
                 “get / my-page.html”. Using this protocol had its downsides as it could only transmit HTML files.  
              With no status or error codes, it created HTML files with a description of the issue. </p>
+    </section>
+
+    <section class="card">
              <!-- creates a figure to display an image as well as a caption-->
          <figure>
              <img src=https://upload.wikimedia.org/wikipedia/commons/8/8d/LS3_4919_%28cropped%29.jpg alt="Tim berners-Lee">
@@ -47,5 +61,7 @@
              cache control mechanisms, content negotiation, and a host header that allows different domains from the same IP 
                 addresses, allowing server collocation. The standardized protocol is when HTTP began to be shaped into how we know it
                 today. Being revised two times. In 2022 HTTP was split into 5 versions. Also achieving the status of internet standard.  </p>
+    </section>
+    </div>
     </main>
 </body>
