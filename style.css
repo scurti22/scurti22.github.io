@@ -11,7 +11,6 @@ nav {
     width: 100%;
     margin: 0;
     padding: 0;
-    position: fixed;
 }
 /*removes bullet points, removes extra space, ligns elements horizontally*/
 nav ul {
@@ -118,6 +117,9 @@ button:hover {
   background:#ffffff;
   padding: 20px;
   border-radius: 25px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+  border: 1px solid #19252D
 }
 p {
   font-family: verdana, sans-serif;
