@@ -17,7 +17,7 @@
         <li><a href="selfassessment.html"> Self Assessment</a></li>
     </ul>
 </nav>
-
+<section class="card">
 <body>
     <h1> Self Assessment </h1>
     <form id="selfassessment">
@@ -52,8 +52,12 @@
                 <button type="button" onclick="gradequiz()">Submit</button>
                 <button type="reset">restart</button>
     </form>
-
+    <div id ="score" class="card" style="display:none;">
+        <h2>Your Score:</h2>
+        <p id="scoreText"></p>
+    </div>
     <div id="result"></div></div>
     <script src="quiz.js"></script>
 </body>
+</section>
 </html>
