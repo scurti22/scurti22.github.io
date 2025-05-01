@@ -99,7 +99,10 @@ form {
 }
 
 h1, h2, h3 {
+  font-family: Verdana, sans-serif;
   color: #212326;
+  font-weight: bold;
+  
 }
 
 button {
@@ -116,7 +119,9 @@ button:hover {
 .card {
   background:#ffffff;
   padding: 20px;
+  margin:10px;
   border-radius: 25px;
+  margin-top: 20px;
   margin-bottom: 20px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
   border: 1px solid #19252D
