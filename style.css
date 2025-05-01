@@ -1,13 +1,17 @@
 /* removes margins */
 body, html {
     margin: 0;
-    padding: 0;
+    padding: 30px;
     background-color: #c4c4c4;
 }
 /*hides content overflow, adds a background color to nav bar*/
 nav {
     overflow: hidden;
     background-color:#19252D;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: fixed;
 }
 /*removes bullet points, removes extra space, ligns elements horizontally*/
 nav ul {
@@ -43,7 +47,7 @@ header {
 /*styles text in main*/
   main {
     color:black;
-    font-size: 16px;
+    font-size: 20px;
     font-family: Verdana, sans-serif;
   }
 
@@ -115,7 +119,9 @@ button:hover {
 
 @media (min-width: 600px){
   .container {
-    max-width: 90%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
   }
 
   nav ul{
