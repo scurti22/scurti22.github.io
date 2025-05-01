@@ -32,10 +32,14 @@ nav ul li a{
     padding: 14px 16px;
     font-size: 20px;
     font-family: Verdana, sans-serif;
+    text-decoration: none;
 }
 /* adds hover animation and its color to list elements*/
 nav ul li a:hover {
-    color: #416071
+    color: #416071;
+    background-color: #C0C0C0;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
 }
 /*styles the text in header*/
 header { 
@@ -112,9 +116,13 @@ button:hover {
 }
 
 .card {
-  background:#c4c4c4;
+  background:#686ebe;
   padding: 30px;
-  border-radius: 8px;
+  border-radius: 25px;
+}
+p {
+  font-family: verdana, sans-serif;
+  font-size: 20px;
 }
 
 @media (min-width: 600px){
